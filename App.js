@@ -34,7 +34,7 @@ function myApp() {
     
     _this.getReport = () => {
         var settings = {
-            "url": "http://"+credentials.Company+".vtexcommercestable.com.br/api/rns/report/subscriptionsByDate?requesterEmail="+subscriptionReportData.email+"&beginDate="+_this.decodeDateEn(subscriptionReportData.startDate)+"&endDate="+_this.decodeDateEn(subscriptionReportData.endDate)+"",
+            "url": "https://"+credentials.Company+".vtexcommercestable.com.br/api/rns/report/subscriptionsByDate?requesterEmail="+subscriptionReportData.email+"&beginDate="+_this.decodeDateEn(subscriptionReportData.startDate)+"&endDate="+_this.decodeDateEn(subscriptionReportData.endDate)+"",
             "method": "POST",
             "type": "POST",
             "headers": {
