@@ -42,7 +42,6 @@ function myApp() {
                 "Content-Type": "application/json",
                 "X-VTEX-API-AppToken": credentials.AppToken,
                 "X-VTEX-API-AppKey": credentials.AppKey,
-                "accept-encoding": "gzip, deflate",
                 "Connection": "keep-alive",
                 "cache-control": "no-cache"
             }
