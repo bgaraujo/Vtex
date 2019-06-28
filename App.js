@@ -34,8 +34,8 @@ function myApp() {
     
     _this.getReport = () => {
         var settings = {
-            "async": true,
-            "crossDomain": true,
+            //"async": true,
+            //"crossDomain": true,
             "url": "https://"+credentials.Company+".vtexcommercestable.com.br/api/rns/report/subscriptionsByDate?requesterEmail="+subscriptionReportData.email+"&beginDate="+_this.decodeDateEn(subscriptionReportData.startDate)+"&endDate="+_this.decodeDateEn(subscriptionReportData.endDate)+"",
             "method": "POST",
             "type": "POST",
@@ -44,12 +44,11 @@ function myApp() {
                 "X-VTEX-API-AppKey": credentials.AppKey,
                 "Accept": "application/json",
                 "Content-Type": "application/json",
-                "User-Agent": "PostmanRuntime/7.15.0",
-                "Cache-Control": "no-cache",
-                "accept-encoding": "gzip, deflate",
-                "content-length": "",
-                "Connection": "keep-alive",
-                "cache-control": "no-cache"
+                //"User-Agent": "PostmanRuntime/7.15.0",
+                //"Cache-Control": "no-cache",
+                //"content-length": "",
+                //"Connection": "keep-alive",
+                //"cache-control": "no-cache"
             }
         }
           
